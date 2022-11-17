@@ -1,4 +1,4 @@
-package com.Amircoding.taco_cloud_validation_chapter_03.enums;
+package com.Amircoding.taco_cloud_validation_chapter_02.enums;
 
 public enum IngredientsType {
 	WRAP,

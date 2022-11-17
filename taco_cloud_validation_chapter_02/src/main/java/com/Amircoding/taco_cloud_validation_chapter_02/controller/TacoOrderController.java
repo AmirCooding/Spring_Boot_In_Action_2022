@@ -1,4 +1,4 @@
-package com.Amircoding.taco_cloud_validation_chapter_03.controller;
+package com.Amircoding.taco_cloud_validation_chapter_02.controller;
 
 import javax.validation.Valid;
 
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.bind.support.SessionStatus;
 
-import com.Amircoding.taco_cloud_validation_chapter_03.models.Order;
+import com.Amircoding.taco_cloud_validation_chapter_02.models.Order;
 
 @Controller
 @RequestMapping("/orders")

@@ -1,6 +1,6 @@
-package com.Amircoding.taco_cloud_validation_chapter_03.models;
+package com.Amircoding.taco_cloud_validation_chapter_02.models;
 
-import com.Amircoding.taco_cloud_validation_chapter_03.enums.IngredientsType;
+import com.Amircoding.taco_cloud_validation_chapter_02.enums.IngredientsType;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;

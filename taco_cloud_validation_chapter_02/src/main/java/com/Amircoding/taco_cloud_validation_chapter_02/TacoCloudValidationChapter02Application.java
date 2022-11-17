@@ -1,14 +1,14 @@
-package com.Amircoding.taco_cloud_validation_chapter_03;
+package com.Amircoding.taco_cloud_validation_chapter_02;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @SpringBootApplication
-public class TacoCloudValidationChapter03Application implements WebMvcConfigurer {
+public class TacoCloudValidationChapter02Application implements WebMvcConfigurer {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TacoCloudValidationChapter03Application.class, args);
+		SpringApplication.run(TacoCloudValidationChapter02Application.class, args);
 
 	}
 

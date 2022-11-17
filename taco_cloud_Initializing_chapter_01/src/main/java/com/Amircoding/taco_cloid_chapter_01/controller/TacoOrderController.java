@@ -1,4 +1,4 @@
-package com.Amircoding.taco_cloid_chapter02.controller;
+package com.Amircoding.taco_cloid_chapter_01.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.bind.support.SessionStatus;
 
-import com.Amircoding.taco_cloid_chapter02.models.Order;
+import com.Amircoding.taco_cloid_chapter_01.models.Order;
 
 @Controller
 @RequestMapping("/orders")

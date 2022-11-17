@@ -1,6 +1,6 @@
-package com.Amircoding.taco_cloid_chapter02.models;
+package com.Amircoding.taco_cloid_chapter_01.models;
 
-import com.Amircoding.taco_cloid_chapter02.enums.IngredientsType;
+import com.Amircoding.taco_cloid_chapter_01.enums.IngredientsType;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package com.Amircoding.taco_cloid_chapter02.enums;
+package com.Amircoding.taco_cloid_chapter_01.enums;
 
 public enum IngredientsType {
 	WRAP,

@@ -1,19 +1,19 @@
-package com.AmirCoding.taco_colud_dataWorking_chapter_03;
+package com.AmirCoding.taco_cloud_dataWorking_chapter_03;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import com.AmirCoding.taco_colud_dataWorking_chapter_03.enums.IngredientsType;
-import com.AmirCoding.taco_colud_dataWorking_chapter_03.models.Ingredient;
-import com.AmirCoding.taco_colud_dataWorking_chapter_03.repository.IngredientRepository;
+import com.AmirCoding.taco_cloud_dataWorking_chapter_03.enums.IngredientsType;
+import com.AmirCoding.taco_cloud_dataWorking_chapter_03.models.Ingredient;
+import com.AmirCoding.taco_cloud_dataWorking_chapter_03.repository.IngredientRepository;
 
 @SpringBootApplication
-public class TacoColudDataWorkingChapter03Chapter03Application {
+public class TacoCloudDataWorkingChapter03Chapter03Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TacoColudDataWorkingChapter03Chapter03Application.class, args);
+		SpringApplication.run(TacoCloudDataWorkingChapter03Chapter03Application.class, args);
 	}
 
 	@Bean

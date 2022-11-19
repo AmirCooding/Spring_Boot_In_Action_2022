@@ -1,4 +1,4 @@
-package com.AmirCoding.taco_colud_dataWorking_chapter_03.controller;
+package com.AmirCoding.taco_cloud_dataWorking_chapter_03.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

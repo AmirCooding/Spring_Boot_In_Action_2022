@@ -1,11 +1,11 @@
-package com.AmirCoding.taco_colud_dataWorking_chapter_03.models;
+package com.AmirCoding.taco_cloud_dataWorking_chapter_03.models;
 
 import java.io.Serializable;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-import com.AmirCoding.taco_colud_dataWorking_chapter_03.enums.IngredientsType;
+import com.AmirCoding.taco_cloud_dataWorking_chapter_03.enums.IngredientsType;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;

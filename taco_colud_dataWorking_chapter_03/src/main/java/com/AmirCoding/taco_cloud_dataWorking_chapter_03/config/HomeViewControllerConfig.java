@@ -1,4 +1,4 @@
-package com.AmirCoding.taco_colud_dataWorking_chapter_03.config;
+package com.AmirCoding.taco_cloud_dataWorking_chapter_03.config;
 
 //@Configuration
 //public class HomeViewControllerConfig implements WebMvcConfigurer {

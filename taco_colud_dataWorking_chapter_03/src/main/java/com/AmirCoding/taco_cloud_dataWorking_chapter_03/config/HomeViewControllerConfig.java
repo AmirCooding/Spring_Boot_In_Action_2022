@@ -1,11 +1,15 @@
 package com.AmirCoding.taco_cloud_dataWorking_chapter_03.config;
 
-//@Configuration
-//public class HomeViewControllerConfig implements WebMvcConfigurer {
-//
-//	@Override
-//	public void addViewControllers(ViewControllerRegistry registry) {
-//		registry.addViewController("/").setViewName("home");
-//	}
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-//}
+@Configuration
+public class HomeViewControllerConfig implements WebMvcConfigurer {
+
+	@Override
+	public void addViewControllers(ViewControllerRegistry registry) {
+		registry.addViewController("/").setViewName("home");
+	}
+
+}

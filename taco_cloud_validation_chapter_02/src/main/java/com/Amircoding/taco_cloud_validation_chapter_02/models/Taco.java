@@ -15,10 +15,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor(access = AccessLevel.PUBLIC, force = true)
 public class Taco {
 	@NotNull
-	@Size(min = 4, message = "Name must be at least 5 charectar long")
-	private String name;
-	@NotNull
 	@Size(min = 1, message = "you must choose at least ingredient")
 	private List<String> ingredients;
+	@NotNull
+	@Size(min = 4, message = "Name must be at least 5 charectar long")
+	private String name;
 
 }

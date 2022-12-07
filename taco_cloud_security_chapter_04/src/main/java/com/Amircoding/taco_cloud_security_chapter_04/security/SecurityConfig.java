@@ -19,7 +19,7 @@ public class SecurityConfig {
 	public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
 		return http
 					.authorizeRequests()
-					.antMatchers("/design", "/orders")
+					.antMatchers("/design", "redirect:/orders/current")
 					.access("hasRole('USER')")
 					.antMatchers("/", "/**")
 					.access("permitAll()")

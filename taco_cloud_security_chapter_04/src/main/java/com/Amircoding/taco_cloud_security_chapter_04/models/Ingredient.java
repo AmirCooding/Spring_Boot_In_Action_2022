@@ -1,7 +1,5 @@
 package com.Amircoding.taco_cloud_security_chapter_04.models;
 
-import java.io.Serializable;
-
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
@@ -16,11 +14,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor(access = AccessLevel.PROTECTED, force = true)
-public class Ingredient implements Serializable {
-	/**
-	 *
-	 */
-	private static final long serialVersionUID = 1L;
+public class Ingredient {
 	@Id
 	private final String id;
 	private final String name;

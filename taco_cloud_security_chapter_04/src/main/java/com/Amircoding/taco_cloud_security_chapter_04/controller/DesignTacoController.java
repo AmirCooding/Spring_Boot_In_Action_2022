@@ -54,12 +54,13 @@ public class DesignTacoController {
 								@ModelAttribute Order order) {
 
 		if (errors.hasErrors()) {
+			System.out.println("NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO");
 			return "design";
 		}
 
 		Taco saved = tacoRepo.save(taco);
 		order.addTaco(saved);
-
+		System.out.println("Yessssssssssssssssssssssssssssssssssssss");
 		return "redirect:/orders/current";
 	}
 

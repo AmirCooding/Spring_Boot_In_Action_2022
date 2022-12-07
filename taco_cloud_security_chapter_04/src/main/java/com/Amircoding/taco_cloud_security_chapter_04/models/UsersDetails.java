@@ -19,13 +19,12 @@ import lombok.RequiredArgsConstructor;
 
 @Entity
 @Data
-@NoArgsConstructor(access = AccessLevel.PROTECTED, force = true)
+@NoArgsConstructor(access = AccessLevel.PUBLIC, force = true)
 @RequiredArgsConstructor
 public class UsersDetails implements UserDetails {
-	/**
-	 *
-	 */
+
 	private static final long serialVersionUID = 1L;
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
